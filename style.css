@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg1: #151828;
+    --bg2: #1B1F34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+body{
+    font-family: "inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Dela Gothic One",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.navbar{
+    background:linear-gradient(to bottom,#1B1F34,rgba(27, 31, 52, 0.2));
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--brand);
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family: "Dela Gothic One",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px; 
+}
+
+#hero{
+    background:linear-gradient(to right,#1B1f34,rgba(27,31,52,0.0)),url(delfina-pan-wJoB8D3hnzc-unsplash.jpg);
+    min-height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+#hero p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.btn{
+    padding: 16px 36px;
+    font-family: "Dela Gothic One",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s ease;
+    border-radius: 0;
+}
+.btn-brand{
+    background-color: var(--brand);
+}
+.btn-brand:hover{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-outline-brand{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-outline-brand:hover{
+    background-color: var(--brand);
+}
+/*About*/
+.us{
+    text-align: center;
+    margin-top: -100px;
+}
+#about{
+    position: relative;
+    margin-bottom: -48px;
+}
+#about::after{
+    content: "";
+    width: 25%;
+    height: 95%;
+    background-color: var(--brand);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#about h6{
+    margin-bottom: 48px;
+    color: var(--brand);
+}
+#about h1{
+    margin-bottom: 24px;
+}
+#services{
+    background: var(--bg2);
+    margin-bottom: -70px;
+}
+#services .service .content{
+    padding: 16px;
+    text-align: center;
+}
+.intro{
+    margin-bottom: 16px;
+}
+.intro h1{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.intro h6{
+    margin-top: -100px;
+    color: var(--brand);
+    text-align: center;
+}
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+.service{
+    margin-top: 24px;
+}
+.cta-btns{
+    text-align: center;
+    margin-top: 16px;
+}
+/*Booking*/
+#contact{
+    background: linear-gradient(to right,rgba(27,31,52,0.8),rgba(27,31,52,0.8)),url(istockphoto-1341429602-1024x1024-transformed\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#contact form{
+    background-color:var(--bg1);
+    padding: 32px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+#contact form .form-control{
+    background-color: var(--bg2);
+    border-radius: 0;
+    border-color: var(--bg2);
+    color: var(--body);
+}
+#contact input::placeholder{
+    color: white;
+}
+#contact textarea::placeholder{
+    color: white;
+}
+form h1{
+    margin-bottom: 20px;
+}
+/*footer*/
+#footer{
+    margin-top: 60px ;
+
+}
+#footer .links{
+display: flex;
+gap:32px;
+}
+#footer .mail{
+    color: #959DCC;
+    text-decoration: none;
+}
+.footer-bottom{
+    padding: 16px;
+    border-top: 1px solid var(--bg2);
+}
+.footer-bottom p{
+text-align: center;
+}
+footer #end{
+    padding: 16px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: -200px;
+    border-top: 1px solid var(--bg1);
+  }
+ #services .intro .header{
+    margin-top: 4px;
+}
+.footerlinkssss a{
+    text-decoration: none;
+}
